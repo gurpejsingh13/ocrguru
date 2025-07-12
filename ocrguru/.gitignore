@@ -1,0 +1,36 @@
+# Byte‐compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+*.egg
+
+# Virtual environments
+.env
+.venv/
+env/
+venv/
+
+# Docling/OCR artifacts
+artifacts/      # if you store intermediate pipeline outputs
+*.onnx          # RapidOCR model files
+
+# IDEs and editors
+.vscode/
+.idea/
+
+# Pytest / coverage
+.pytest_cache/
+htmlcov/
+.coverage
+.coverage.*
+.cache/
+
+# OS files
+.DS_Store
+Thumbs.db
